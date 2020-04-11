@@ -1,0 +1,17 @@
+#include<iostream.h>
+using namespace std;
+int main()
+{
+   int age;
+   cout<<"Enter your age:"<<endl;
+   cin>>age;
+   if(age>=18)
+      {
+        cout<<"Your are eligible to vote.Make sure your choice speaks.";
+      }
+   else
+     {
+      cout<<"sorry!.you are not eligible to vote.";
+      }
+      return 0;
+    }  
